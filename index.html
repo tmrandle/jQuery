@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>jQuery</title>
+  <link href="main.css" rel="stlyesheet"  type="text/css">	
+</head>
+	
+<body>
+  <div id="mainWrapper">
+	  
+  <header> <!--Contains my main header information-->
+	 <h1 id="top">Welcome to the Hilltop Cafe&#769;</h1> 
+  </header>
+	  
+  <nav>
+	<ul>
+	  <li>Our Story</li>
+	  <li>Contact Information</li>
+	  <li><a href="#menu">Menu</a></li>
+	</ul>  
+  </nav>
+	  
+  <div id="mainFood">  <!--This division is for the main food-->
+	  <section> <!--section to introduce the main food-->
+		  <h2>Homemade Food</h2>
+		  <img src="images/potatoSoup3.jpg" alt="Potato Soup">
+		  <p>We strive to provide nutritious homemade food.<br>  We partner with local farmers to use fresh, in season, local produce. Pictures don't do justice to the wonderful taste of the food.</p>
+	  </section> 
+  </div> <!--ending for mainFood div-->
+	  
+  <section id="otherPages"> <!--Section to take you to the other pages-->
+	<h3>Links to our Beverages and Desserts</h3>
+	<a class="otherPages2" href="beverages.html" target="_self">Beverages Page</a> 
+	  <!--This will take you to the beverages page-->
+	  
+	<a class="otherPages2" href="dessert.html" target="self">Dessert Page</a>
+	  <!--This will take you to the dessert page-->
+  </section>
+	  
+  <section> <!--This section is for the main food items.-->
+	  <article class="foods">
+		 <h3>Sandwiches</h3>
+			<p>Sandwiches made with <em>fresh</em> ingredients.  Try some of them today.</p>
+			 <dl>
+			   <dt><b>Turkey</b></dt>
+				 <dd>A turkey sandwich with Swiss cheese, pickles, and lettuce.</dd>
+				 <dt><b>Ham</b></dt>
+				 <dd>A Ham sandwich with cheddar cheese, onions, and tomatoes.</dd>
+				 <dt><b>Grilled Cheese</b></dt>
+				 <dd>Melted Cheese on nicely toasted bread.</dd>
+			 </dl> 
+	  </article>
+	  
+	  <article class="foods">
+		  <h3>Soups</h3>
+			<p>Great on a <i>cold</i> day.</p>
+			  <dl>
+				<dt><b>Loaded Baked Potato</b></dt>
+				  <dd>Creamy baked potato, corn, colby cheese and bacon.</dd>
+				  <dt><b>Chicken Tortilla Soup</b></dt>
+				  <dd>Spicy tomato and broth based chicken soup.</dd>
+				</dl>
+	  </article>
+  </section>
+	  
+	  
+	  <aside id="additionalInfo"> <!--Interesting additional info or facts-->
+		  <h4>Information about some of our Local Farmers.</h4>
+			<p>Meet some of our local farmers, dairy producers, and beekeepers.  These people work hard to provide the quality produce.  The Smith Farm has Jersey cows that produce rich tasting milk and cheeses.  Their farm practices also take the environment into account.</p>
+			<p>Coming soon to some of our desserts, fresh strawberries from Poteet. Yum!</p>
+			<p>Search for local farms on the following site.</p>
+		    <a href="https://www.google.com/?gws_rd=ssl" target="_blank">Google Website</a>
+	  </aside>
+	  
+	  <aside id="download">
+		<p>Our Menu is available for you to download.</p>
+		<p id="menu">Menu Section</p>
+		<a href="assets/theHilltopCafeMenu.pdf" download>Hilltop Cafe&#769; Menu</a>
+	  </aside>
+	  
+	  <a id="bottom" href="#top">Go to Top of Page</a> <!--the id=bottom is there so that it can be styled in css-->
+	  <!--this anchor element will take you back to the top of the page-->
+	  
+	  <footer>&#169; 2020  Hilltop Cafe&#769; All rights reserved.</footer>
+	  	
+  </div>  <!--This is the ending div for the div id=mainWrapper-->
+	
+</body>
+</html>
