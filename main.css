@@ -11,13 +11,13 @@
 
 /*This is so that the padding and border added later don't add to the overall box size, really important*/
 *{
-	boxsizing: borderbox;
+	box-sizing: border-box;
 }
 
 header{
 	width: 1200px;
 	height: 90px;
-	background-color: lightblue;
+	background-color: green;
 	margin: 0px;
 	padding: 2px;
 	border-bottom-style: ridge;
