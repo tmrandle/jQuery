@@ -17,7 +17,7 @@
 header{
 	width: 1200px;
 	height: 90px;
-	background-color: green;
+	background-color: lightslategray;
 	margin: 0px;
 	padding: 2px;
 	border-bottom-style: ridge;
@@ -62,4 +62,35 @@ nav li{
 #mainFood h2{
 	text-align: center;
 }
+
+#mainFood img{
+	width: 200px;
+	height: 150px;
+	margin: 5px 5px 5px 8px;
+	padding: 0px;
+	float: right;
+}
+
+#otherpages{
+	width: 495px;
+	height: 295px;
+	background-color: beige;
+	margin: 20px 20px 10px 10px;
+	padding: 10px;
+	float: right;
+	text-align: center;
+}
+
+.otherpages2{
+	height: 65px;
+	width: 150px;
+	margin: 5px;
+	padding: 15px 5px 5px 5px;
+	display: inline-block;
+	background-color: lightblue;
+	border: 8px solid red;
+	border-radius: 8px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	}
 
