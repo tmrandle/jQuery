@@ -1,3 +1,65 @@
 @charset "utf-8";
 /* CSS Document */
 
+/*This is to give the div mainWrapper a bacground and size, the color really helps me to see it*/
+#mainWrapper{
+	width: 1200px;
+	length: 100%;
+	background-color: lightblue;
+	margin: 0px auto;  /*this line centers the page*/
+	}
+
+/*This is so that the padding and border added later don't add to the overall box size, really important*/
+*{
+	boxsizing: borderbox;
+}
+
+header{
+	width: 1200px;
+	height: 90px;
+	background-color: lightblue;
+	margin: 0px;
+	padding: 2px;
+	border-bottom-style: ridge;
+	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+nav{
+	width: 1200px;
+	height: 65px;
+	background-color: coral;
+	margin: 0px;
+	padding: 10px 350px 10px 420px;
+	borderstyle: double;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+nav li{
+	margin: 0px;
+	padding: 1px;
+	display: inline-block;
+	width: 120px;
+	text-align: center;
+}
+
+#mainFood{
+	width: 710px;
+	height: 295px;
+	background-color: beige;
+	margin: 20px 10px 10px 20px;
+	padding: 10px 10px 10px 10px;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#mainFood h2{
+	text-align: center;
+}
+
