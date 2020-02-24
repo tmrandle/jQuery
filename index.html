@@ -3,8 +3,24 @@
 <head>
   <meta charset="utf-8">
   <title>jQuery</title>
+	<!--This link is for my main css file-->
   <link rel="stylesheet" type="text/css" href="main.css">
-  <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet"> 
+	<!--This link id for the google webfont-->
+  <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+  <!--This is the 'library' code for the jQuery tool draggable and datepicker tools work-->
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <!--The first funcion is for the draggable tool-->
+  <script>
+  $( function() {
+    $( "#draggable" ).draggable();
+  } );
+  
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+  </script>
+  <!--The above function is for the datepicker jQuery tool-->
 </head>
 	
 <body>
@@ -25,8 +41,9 @@
   <div id="mainFood">  <!--This division is for the main food-->
 	  <section> <!--section to introduce the main food-->
 		  <h2>Homemade Food</h2>
-		  <img src="images/potatoSoup3.jpg" alt="Potato Soup">
-		  <p>We strive to provide nutritious homemade food.<br>  We partner with local farmers to use fresh, in season, local produce. Come in and experience the wonderful taste of the food.</p>
+		  <img id="draggable" src="images/potatoSoup3.jpg" alt="Potato Soup">
+		  <p>We strive to provide nutritious homemade food.<br>  We partner with local farmers to use fresh, in season, local produce. Come in and experience the wonderful taste of the food.</p><br><br>
+		  <p>You can move the picture of soup around the page.  Give it a try.</p>
 	  </section> 
   </div> <!--ending for mainFood div-->
 	  
@@ -79,6 +96,27 @@
 		<p id="menu">Menu Section</p>
 		<a id="menu2" href="assets/theHilltopCafeMenu.pdf" download>Hilltop Cafe&#769; Menu</a>
 	  </aside>
+	  
+	  <section id="reservations">
+		  <p>Make reservations for your special day.</p>
+		  <form>
+			  <label for="name">Enter your name.</label>
+			  <input type="text" id="name" value="">
+			  
+			  <label for="pSize">Size of your group.</label>
+			  <input for="pSize" type="text" value="">
+			  
+			  <label for="date">Select a date.</label>		 
+			  <input id="datepicker" type="text" value=""> <!--This uses the jQuery datepicker tool_-->
+			  
+			  <br><br>
+			  <label for="requests">Enter any special request.</label>
+			  <input id="requests" type="text" value="">
+			  
+			  <input id="submit" type="submit" value="Submit">
+		  </form>
+		  
+	  </section>
 	  
 	  <a id="bottom" href="#top">Go to Top of Page</a> <!--the id=bottom is there so that it can be styled in css-->
 	  <!--this anchor element will take you back to the top of the page-->
