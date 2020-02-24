@@ -16,13 +16,15 @@
 
 header{
 	width: 1200px;
-	height: 90px;
+	height: 110px;
 	background-color: lightslategray;
 	margin: 0px;
 	padding: 2px;
 	border-bottom-style: ridge;
 	text-align: center;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family: 'Courgette';
+	font-size: 22px;
+	text-shadow: 1px 1px lightgrey;
 }
 
 nav{
@@ -30,9 +32,10 @@ nav{
 	height: 65px;
 	background-color: coral;
 	margin: 0px;
-	padding: 10px 350px 10px 420px;
+	padding: 10px 100px 10px 260px;
 	borderstyle: double;
 	font-family: Arial, Helvetica, sans-serif;
+	font-size: 19px;
 }
 
 nav ul{
@@ -42,10 +45,10 @@ nav ul{
 }
 
 nav li{
-	margin: 0px;
+	margin: 15px;
 	padding: 1px;
 	display: inline-block;
-	width: 120px;
+	width: 200px;
 	text-align: center;
 }
 
@@ -93,4 +96,72 @@ nav li{
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 	}
+
+.foods{
+	height: 375px;
+	width: 380px;
+	margin: 10px 10px 20px 10px;
+	padding: 10px 10px 10px 10px;
+	background-color: beige;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+	float: left;
+}
+
+#additionalInfo{
+	height: 375px;
+	width: 380px;
+	margin: 10px 10px 20px 10px;
+	padding: 10px 10px 10px 10px;
+	background-color: beige;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+	float: left;
+}
+
+h4{
+	color: darkblue;
+}
+
+#download{
+	height: 120px;
+	width: 1180px;
+	margin: 20px 10px 18px 15px;
+	padding: 5px 5px 5px 5px;
+	background-color: beige;
+	clear: both;
+	font-family: Arial, Helvetica, sans-serif;
+	color: red;
+	line-height: .8;
+	text-align: center;
+	
+}
+
+#menu2{
+	height: 65px;
+	width: 150px;
+	padding: 5px 10px 5px 10px;
+	background-color: lightblue;
+	border: medium double blue;
+	border-radius: 8px;
+}
+
+#bottom {
+	height: 70px;
+	width: 200px;
+	margin: 30px 10px 10px 540px;
+	padding: 6px 10px;
+	border: thin ridge green;
+	border-radius: 10px;
+}
+
+footer{
+	height: 65px;
+	width: 1200px;
+	margin: 15px 0px 5px 0px;
+	padding: 25px 10px 10px 10px;
+	background-color: #FAfad2;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
 
