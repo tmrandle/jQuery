@@ -71,8 +71,8 @@ nav li{
 	float: right;
 }
 
-#otherpages{
-	width: 495px;
+#otherPages{
+	width: 425px;
 	height: 295px;
 	background-color: beige;
 	margin: 20px 20px 10px 10px;
@@ -81,7 +81,7 @@ nav li{
 	text-align: center;
 }
 
-.otherpages2{
+.otherPages2{
 	height: 65px;
 	width: 150px;
 	margin: 5px;
