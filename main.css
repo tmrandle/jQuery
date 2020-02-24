@@ -66,6 +66,10 @@ nav li{
 	text-align: center;
 }
 
+#move{
+	color: blue;
+}
+
 #mainFood img{
 	width: 200px;
 	height: 150px;
